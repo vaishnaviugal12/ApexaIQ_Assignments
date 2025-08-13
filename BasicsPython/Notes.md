@@ -1,5 +1,5 @@
-# Task_2_Python
-# Python List Comprehension
+# Python Basics
+## Python List Comprehension
 
 This repository contains examples and explanations of **List Comprehension** in Python.
 
