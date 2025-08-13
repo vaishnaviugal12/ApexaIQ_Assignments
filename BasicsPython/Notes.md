@@ -25,3 +25,20 @@ It can also include conditional logic for filtering.
 * iterable – the source of elements (like a list, tuple, range, or string)
 
 * condition (optional) – filter elements based on a test
+
+# Dictionary Comprehension in Python
+
+Dictionary comprehension provides a concise way to create dictionaries from iterables, similar to list comprehensions but with key–value pairs.
+
+## Syntax
+```python
+{key_expression: value_expression for item in iterable if condition}
+```
+* key_expression → generates the dictionary key.
+
+* value_expression → generates the dictionary value.
+
+* iterable → the data source to loop   through.
+
+* condition (optional) → filters which items to include.
+
