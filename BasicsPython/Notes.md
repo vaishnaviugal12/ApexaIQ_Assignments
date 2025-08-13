@@ -18,7 +18,7 @@ line of code** — often replacing the need for loops.  It can also include cond
 ```
 * expression – the operation or value to include in the new list
 
-* item – variable that *takes each value from the iterable
+* item – variable that takes each value from the iterable
 
 * iterable – the source of elements (like a list, tuple, range, or string)
 
