@@ -5,8 +5,9 @@ This repository contains examples and explanations of **List Comprehension** in 
 
 ## What is List Comprehension?
 
-List comprehension is a **syntactic shortcut** in Python that lets you create new lists from existing iterables like **lists, tuples, ranges, or strings**, in a **single, readable line of code** — often replacing the need for loops.  
-It can also include conditional logic for filtering.
+List comprehension is a **syntactic shortcut** in Python that lets you create new lists 
+from existing iterables like **lists, tuples, ranges, or strings**, in a **single, readable 
+line of code** — often replacing the need for loops.  It can also include conditional logic for filtering.
 
 
 
