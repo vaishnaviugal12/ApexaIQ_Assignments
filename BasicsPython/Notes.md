@@ -58,4 +58,65 @@ squares = {x: x**2 for x in range(5)}
 print(squares)
 
 ```
+# File Handling 
+**File handling** refers to the process of performing operations on a file, such as creating, opening, reading, writing and closing it through a programming interface. It involves managing the data flow between the program and the file system on the storage device, ensuring that data is handled safely and efficiently.
 
+# File Handling in Python
+The key function for working with files in Python is the open() function.
+
+There are four different methods (modes) for opening a file:
+
+* "r" - Read - Default value. Opens a file for reading, error if the file does not exist
+
+* "a" - Append - Opens a file for appending, creates the file if it does not exist
+
+* "w" - Write - Opens a file for writing, creates the file if it does not exist
+
+* "x" - Create - Creates the specified file, returns an error if the file exists
+
+
+# Opening a File in Python
+To open a file, we can use open() function, which requires file-path and mode as arguments:
+
+```python
+ file = open('filename.txt', 'mode')
+
+```
+
+* filename.txt: name (or path) of the file to be opened.
+
+* mode: mode in which you want to open the file (read, write, append, etc.).
+Note: 
+
+# Closing a File
+It's important to close the file after you're done using it. file.close()
+
+```python
+ file = open('f.txt', 'r')
+ file.close()
+```
+# Checking File Properties
+```python
+f = open("first.txt", "r")
+
+print("Filename:", f.name)
+print("Mode:", f.mode)
+print("Is Closed?", f.closed)
+
+f.close()
+print("Is Closed?", f.closed)
+```
+Explanation:
+
+* f.name: Returns the name of the file that was opened (in this case, "demo.txt").
+* f.mode: Tells us the mode in which the file was opened. Here, it’s 'r' which means read mode.
+* f.closed: Returns a boolean value- Fasle when file is currently open otherwise True.
+
+# Reading a File
+Reading a file can be achieved by file.read()
+```python
+file = open("first.txt", "r")
+content = file.read()
+print(content)
+file.close()
+```
