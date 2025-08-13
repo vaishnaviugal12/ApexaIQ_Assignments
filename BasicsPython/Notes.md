@@ -3,7 +3,7 @@ This repository contains examples and explanations of **List Comprehension** in 
 
 # Python List Comprehension
 
-# What is List Comprehension?
+## What is List Comprehension?
 
 List comprehension is a **syntactic shortcut** in Python that lets you create new lists 
 from existing iterables like **lists, tuples, ranges, or strings**, in a **single, readable 
@@ -34,7 +34,7 @@ print(squares)
 
 ```
 
-## Dictionary Comprehension in Python
+# Dictionary Comprehension in Python
 
 Dictionary comprehension provides a concise way to create dictionaries from iterables, similar to list comprehensions but with key–value pairs.
 
