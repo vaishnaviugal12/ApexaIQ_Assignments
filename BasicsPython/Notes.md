@@ -34,6 +34,13 @@ Dictionary comprehension provides a concise way to create dictionaries from iter
 ```python
 {key_expression: value_expression for item in iterable if condition}
 ```
+## Example
+```python
+ # Create a dictionary of numbers and their squares
+squares = {x: x**2 for x in range(5)}
+print(squares)
+
+```
 * key_expression → generates the dictionary key.
 
 * value_expression → generates the dictionary value.
