@@ -18,10 +18,10 @@ It can also include conditional logic for filtering.
 [expression for item in iterable if condition]
 
 ```
-*expression – the operation or value to include in the new list
+* expression – the operation or value to include in the new list
 
-*item – variable that *takes each value from the iterable
+* item – variable that *takes each value from the iterable
 
-*iterable – the source of elements (like a list, tuple, range, or string)
+* iterable – the source of elements (like a list, tuple, range, or string)
 
-*condition (optional) – filter elements based on a test
+* condition (optional) – filter elements based on a test
