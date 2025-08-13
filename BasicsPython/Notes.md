@@ -1,9 +1,7 @@
 # Python Basics
-## Python List Comprehension
-
 This repository contains examples and explanations of **List Comprehension** in Python.
 
-
+## Python List Comprehension
 
 ## What is List Comprehension?
 
@@ -26,6 +24,16 @@ It can also include conditional logic for filtering.
 
 * condition (optional) – filter elements based on a test
 
+## Syntax
+
+```python
+# Create a list of squares
+squares = [x**2 for x in range(5)]
+print(squares)
+
+
+```
+
 # Dictionary Comprehension in Python
 
 Dictionary comprehension provides a concise way to create dictionaries from iterables, similar to list comprehensions but with key–value pairs.
@@ -34,13 +42,6 @@ Dictionary comprehension provides a concise way to create dictionaries from iter
 ```python
 {key_expression: value_expression for item in iterable if condition}
 ```
-## Example
-```python
- # Create a dictionary of numbers and their squares
-squares = {x: x**2 for x in range(5)}
-print(squares)
-
-```
 * key_expression → generates the dictionary key.
 
 * value_expression → generates the dictionary value.
@@ -48,4 +49,12 @@ print(squares)
 * iterable → the data source to loop   through.
 
 * condition (optional) → filters which items to include.
+
+## Example
+```python
+ Create a dictionary of numbers and their squares
+squares = {x: x**2 for x in range(5)}
+print(squares)
+
+```
 
