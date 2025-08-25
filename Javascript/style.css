@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 5px solid black;
+    margin: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lineone, .linetwo {
+    display: flex;
+}
+
+/* Default colors */
+.red { background-color: #e74c3c; }     /* Dark red */
+.blue { background-color: #3498db; }    /* Dark blue */
+.green { background-color: #2ecc71; }   /* Dark green */
+.pink { background-color: #9b59b6; }    /* Purple/pink */
+
+/* Game flash (lighter shades) */
+.red.flash { background-color: #ff7675; }
+.blue.flash { background-color: #74b9ff; }
+.green.flash { background-color: #55efc4; }
+.pink.flash { background-color: #e056fd; }
+
+/* User click flash (yellow border effect) */
+.userflash {
+    border: 5px solid yellow;
+    box-shadow: 0 0 20px yellow;
+}
